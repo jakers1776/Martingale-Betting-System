@@ -33,10 +33,10 @@ This program will utilize the martingale betting strategy to simulate the binary
 
 1. Start out with an intial balance - $2,000
 2. Start Initial bet - $1
-⋅⋅⋅Win: Place another bet for $1
-⋅⋅⋅Lose: Place a new trade for $2 (and double for each loss)
+   - Win: Place another bet for $1
+   - Lose: Place a new trade for $2 (and double for each loss)
 3. If the player finally wins after a losing streak:
-⋅⋅⋅Then, reset the next bet back to $1 and start over
+   - Then, reset the next bet back to $1 and start over
 
 ## How to Use
 
