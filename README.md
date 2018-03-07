@@ -40,3 +40,19 @@ This program will utilize the martingale betting strategy to simulate the binary
 
 ## How to Use
 
+**To run, the necessary library of pyplot will need to be installed.**
+
+After executing the program, it will ask for a series of prompt requests from the user:
+
+1. Initial Account Balance
+   - Must be greater than or equal to 1.00
+     - Ex. 1 | 20,000 | 1,000,000.01
+2. Bet Amount:
+   - Must be less than account balance.
+     - Ex. 10.5 | 1,000 | 0.20
+3. How Many Bets (Integers Only):
+   - Must be an integer
+   - Represents how many times each player will bet
+4. How Many People (Integers Only):
+   - Must be an integer
+   - Represents how many players will participate in the simulation
