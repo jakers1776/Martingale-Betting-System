@@ -55,6 +55,7 @@ def martingale(amount, initial_bet, total_bets):
                     bet = previous_bet_amount * 2
                     amount += bet
                     bet = initial_bet
+                    previous_bet_win = True
                     x_axis.append(i)
                     y_axis.append(amount)
                 else:
