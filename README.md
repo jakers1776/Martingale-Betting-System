@@ -2,7 +2,7 @@
 
 ## Introduction
 
-When I was 17, I traded with a martingale betting strategy for binary options with foreign currencies. I started with an account balance of $2,000 dollars and traded $1 bets. After extremely lucky success, I was able to withdraw a balance of $2,500 after a few days.
+When I was 18, I traded with a martingale betting strategy for binary options with foreign currencies. I started with an account balance of $2,000 dollars and traded $1 bets. After extremely lucky success, I was able to withdraw a balance of $2,500 after a few days.
 
 I have always wondered what my odds were, so I built this simulation to test them.
 
@@ -56,3 +56,25 @@ After executing the program, it will ask for a series of prompt requests from th
 4. How Many People (Integers Only):
    - Must be an integer
    - Represents how many players will participate in the simulation
+
+## How to Read Output
+
+After running a set of parameters inputted by the user, the program will display an output that looks similar to this:
+
+![Martingale Betting Strategy Output](https://raw.githubusercontent.com/ThomasTaylorJr/Martingale-Betting-System/master/Martingale_Strategy_Results.png)
+
+Profit: ending balance > than the original balance
+Loss: ending balance < than the original balance
+Bust: ending balance = 0
+
+For the specific test image above, the parameters were:
+
+Initial Account Balance: 5000
+Bet Amount: 100
+How Many Bets (Integers Only): 1000
+How Many People (Integers Only): 1000
+
+**Statistics:**
+Profit: 45.90%
+Busts: 31.60%
+Loss: 22.50%
