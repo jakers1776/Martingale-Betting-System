@@ -63,18 +63,17 @@ After running a set of parameters inputted by the user, the program will display
 
 ![Martingale Betting Strategy Output](https://raw.githubusercontent.com/ThomasTaylorJr/Martingale-Betting-System/master/Martingale_Strategy_Results.png)
 
-Profit: ending balance > than the original balance
-Loss: ending balance < than the original balance
-Bust: ending balance = 0
+* Profit: ending balance > than the original balance
+* Loss: ending balance < than the original balance
+* Bust: ending balance = 0
 
 For the specific test image above, the parameters were:
-
-Initial Account Balance: 5000
-Bet Amount: 100
-How Many Bets (Integers Only): 1000
-How Many People (Integers Only): 1000
+* Initial Account Balance: 5000
+* Bet Amount: 100
+* How Many Bets (Integers Only): 1000
+* How Many People (Integers Only): 1000
 
 **Statistics:**
-Profit: 45.90%
-Busts: 31.60%
-Loss: 22.50%
+* Profit: 45.90%
+* Busts: 31.60%
+* Loss: 22.50%
